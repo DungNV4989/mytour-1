@@ -1,0 +1,11 @@
+<% provide(:title, 'All Tours') %>
+<h1>All Tours</h1>
+
+<ul class="tours">
+  <% @mytour.each do |tours| %>
+    <li>
+      <%= gravatar_for tours, size: 50 %>
+      <%= link_to tours.name, tours %>
+    </li>
+  <% end %>
+</ul>

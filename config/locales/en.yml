@@ -1,4 +1,6 @@
 en:
+  userdelete: "User have been deleted"
+  tourdelete: "Tour have been deleted"
   title: "Tourist For Everyone"
   application_helper:
     base_title: "Book tour for everyone"
@@ -42,3 +44,6 @@ en:
       info_h: "11 Handico Tower Pham Hung Street,"
       info_i: "Nam Tu Liem county, Ha Noi"
       office: "OFFICE ADDRESS"
+  users:
+    _users:
+      sure: "You sure?"
